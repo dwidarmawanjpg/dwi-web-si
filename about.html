@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Dwi Darmawan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <audio id="background-music" src="assets/music/maybe.mp3" loop></audio>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="achievement.html">Achievement</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-flex-container">
+            <div class="about-img-container">
+                <span class="role-text">Dwi</span>
+                <img src="assets/images/about-photo.jpg" alt="About Picture">
+            </div>
+            <div class="about-content">
+                <h3>I Made Dwi Darmawan</h3>
+                <p>A 19-year-old Information Systems student from Bali, currently studying at Undiksha. I'm passionate about the intersection of technology, sports, and music, and I'm dedicated to making a positive impact through community service. By combining my academic knowledge with hands-on experience, I am committed to delivering excellence in every project I undertake.</p>
+                <a href="https://drive.google.com/file/d/1qEnqiHpdA8GZIqvvzTkrowBgPaZkjbjw/view?usp=sharing" target="_blank" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="background-hobi">
+        <h2 class="heading mt-5">Hobbies & <span>Experience</span></h2>
+        <div class="hobby-experience-grid">
+            <div class="grid-item" 
+                 data-title="Archery" 
+                 data-description="Archery offers tranquility, focus, and a sense of achievement." 
+                 data-image="assets/images/about-archery.jpg"> <h3>Archery</h3>
+                <p>Sport measure accuracy</p>
+            </div>
+
+            <div class="grid-item" 
+                 data-title="Hiking" 
+                 data-description="Hiking offers amazing views and challenges." 
+                 data-image="assets/images/about-hiking.jpg"> <h3>Hiking</h3>
+                <p>Sport measure accuracy</p>
+            </div>
+
+            <div class="grid-item" 
+                 data-title="Teater" 
+                 data-description="Theater enhances creativity and self-expression." 
+                 data-image="assets/images/about-teater.jpg"> <h3>Teater</h3>
+                <p>Stage acting passion</p>
+            </div>
+            <div class="grid-item" 
+                 data-title="Music" 
+                 data-description="Playing music brings peace and joy." 
+                 data-image="assets/images/about-music.jpg"> <h3>Music</h3>
+                <p>Rhythm melody harmony</p>
+            </div>
+            <div class="grid-item" 
+                 data-title="Barista" 
+                 data-description="Being a barista enriches the experience of serving coffee." 
+                 data-image="assets/images/barista.png"> <h3>Barista</h3>
+                <p>Espresso steam art</p>
+            </div>
+            <div class="grid-item" 
+                 data-title="Social Service" 
+                 data-description="Social charity brings happiness to others." 
+                 data-image="assets/images/baksos.png"> <h3>Social Service</h3>
+                <p>Charity kindness impact</p>
+            </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img id="modal-image" src="" alt="Hobi/Pengalaman">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="background-color-edu">
+        <h2 class="heading mt-5">Last <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Ganesha University of Education</h3>
+                <h4>S1 Information Systems | 2024 - Present</h4>
+                <p>
+                    Currently pursuing a Bachelor's degree in Information Systems, with a focus on software development, database management, and system analysis, aiming to create innovative solutions to address complex business challenges through technology.
+                </p>
+            </div>
+
+            <div class="education-item">
+                <h3>SMAN 2 Abiansemal</h3>
+                <h4>IPA | 2024</h4>
+                <p>
+                    Graduated from SMAN 2 Abiansemal in 2024, majoring in Science (IPA), with a strong foundation in mathematics, physics, and chemistry, actively participating in various academic and extracurricular activities to develop critical thinking and problem-solving skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
